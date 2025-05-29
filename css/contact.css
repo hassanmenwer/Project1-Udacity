@@ -1,0 +1,72 @@
+.rainbowVortex {
+    background: url(../images/rainbowVortex.png) center/cover no-repeat;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.contactParts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.MessageUs {
+    font-size: 1.1rem;
+}
+
+.contactForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.nameField {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inputField,
+.textareaField {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttonField {
+    display: inline-block;
+    background-color: #ffea00;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 210px;
+}
+
+.buttonField:hover {
+    background-color: #eaea32;
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+@media (max-width: 768px) {
+    .contactParts {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nameField {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,91 @@
+.rainbowVortex {
+    background: url(../images/rainbowVortex.png) center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.ContentBtn {
+    display: inline-block;
+    background-color: #ffea00;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.ContentBtn:hover {
+    background-color: #eaea32;
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.history {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+.peopleWorking {
+    margin: 0;
+    border: 4px solid #020567;
+}
+
+.Image {
+    width: 100%;
+    display: block;
+}
+
+.ImageText {
+    padding: 10px;
+    background-color: #020567;
+    font-weight: bold;
+}
+
+.whatWeDo {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+.PartsWhatWeDo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(78, 69, 86, 0.96);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 8px 10px 8px rgba(40, 10, 300, 0.300);
+    margin: 15px 5px;
+}
+
+.missionStatement {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .rainbowVortex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
